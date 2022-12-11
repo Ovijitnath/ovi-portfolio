@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2c779a1eee.js" crossorigin="anonymous"></script>
 
+    <!-- --------------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- --------------------------- -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,7 +63,7 @@
     </section>
 
     <!----about section design--->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-left">
         <div class="about-img">
             <img src="img/about.jpg">
         </div>
@@ -99,7 +103,7 @@
     </section>
 
     <!----service section design--->
-    <section class="services" id="services">
+    <section class="services" id="services" data-aos="fade-right">
         <div class="main-text">
             <p>What I am Expert In</p>
             <h2><span>My</span> Services</h2>
@@ -140,7 +144,7 @@
     </section>
 
     <!----portfolio section design--->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio" data-aos="fade-left">
         <div class="main-text">
             <p>Portfolio</p>
             <h2><span>Latest</span> Projects</h2>
@@ -215,7 +219,7 @@
 
     <!----blog section design--->
 
-    <section class="blog" id="blog">
+    <section class="blog" id="blog" data-aos="fade-right">
         <div class="main-text">
 
             <h2><span>My</span> Blogs</h2>
@@ -228,7 +232,7 @@
 
 
     <!----contact section design--->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-left">
         <div class="contact-text">
             <h2>Contact <span>Me!</span></h2>
             <h4>If You Have Any Project In Your Mind.</h4>
@@ -279,6 +283,14 @@
     <!-- <script type="text/javascript" src="js/script.js"></script> -->
     <script src="script.js"></script>
 
+    <!-- ----------------------------------------- -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 800
+        });
+    </script>
 </body>
 
 </html>
